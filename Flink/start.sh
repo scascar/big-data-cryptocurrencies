@@ -1,0 +1,1 @@
+/usr/local/flink/bin/flink run -c TestFlink target/flink-kafka-1.0-SNAPSHOT.jar  --topic testblaze --topicdst testselva --bootstrap.servers m1.adaltas.com:6667 --zookeeper.connect m1.adaltas.com:2181 --group.id oscar
